@@ -12,4 +12,3 @@
 ![](/screenshot/9.jpg)
 ![](/screenshot/10.jpg)
 ![](/screenshot/11.jpg)
-![](/screenshot/12.jpg)
