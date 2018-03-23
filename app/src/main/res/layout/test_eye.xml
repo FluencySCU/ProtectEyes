@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linear_ready_test"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#AEDD81"
+        android:visibility="visible"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:lineSpacingMultiplier="1.5"
+            android:text="提示\n\n测试前请摘下框架或隐形眼镜\n请在安静的地点测试\n测试将先测右眼再测左眼\n测试距离:1.5m\n请根据语音提示操作\n回答口令使用(向x)且多次重复可提高准确率\n测试过程中请保证手机网络畅通\n\n测试结果仅供用户自测做参考\n如需精确结果请去医院或眼镜店进行专业检测"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="#269D80"
+            android:onClick="start_test"
+            android:text="开始测试"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/linear_start_test"
+        android:visibility="invisible">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="提示"
+            android:id="@+id/text_tip"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:gravity="center"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/test_img"
+            android:src="@drawable/test_eye_back"
+            android:scaleType="centerInside"/>
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="请指出方向"
+            android:id="@+id/text_test"
+            android:textSize="20sp"
+            android:textColor="#000"
+            />
+    </LinearLayout>
+</RelativeLayout>

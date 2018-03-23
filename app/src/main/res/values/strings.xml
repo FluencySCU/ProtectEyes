@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">PEyes</string>
+    <!-- 登陆注册 -->
+    <string name="user_name">用户名:</string>
+    <string name="hint_user_name">User name</string>
+    <string name="user_phone">手机号码:</string>
+    <string name="hint_user_phone">Phone number</string>
+    <string name="user_password">密码:</string>
+    <string name="hint_password">Password</string>
+    <string name="user_code">验证码:</string>
+    <string name="hint_code">Verify code</string>
+    <string name="send_code">获取验证码</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="new_here">New here?Sign Up</string>
+    <string name="general_max_per_image">图片过大，超过200k上限。</string>
+    <!-- ...麻烦 -->
+
+</resources>
